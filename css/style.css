@@ -46,4 +46,98 @@ body{
 
     font-size: 17px;
 }
+/* --------------------------------------------------------------------------------- */
 
+
+/* Responsiveness */
+
+@media screen and (max-width: 300px) {
+    #div {
+        width: auto;
+        height: auto;
+    }
+
+    #heading {
+        width: auto;
+        height: auto;
+        font-size: 40px;
+        border-radius: 20px;
+    }
+
+    #sort{
+        padding: 4px 10px;
+        font-size: 16px;
+    }
+
+    #add {
+        padding: 4px 10px;
+        font-size: 16px;
+    }
+
+    #input {
+        width: auto;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    #div {
+        width: auto;
+        height: auto;
+    }
+
+    #heading {
+        width: auto;
+        height: auto;
+        font-size: 40px;
+        border-radius: 20px;
+    }
+
+    #sort{
+        padding: 4px 10px;
+        font-size: 16px;
+    }
+
+    #add {
+        padding: 4px 10px;
+        font-size: 16px;
+    }
+
+    #input {
+        width: auto;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+
+    #div {
+        width: auto;
+        height: auto;
+    }
+
+    #heading {
+        width: auto;
+        height: auto;
+        font-size: 40px;
+        border-radius: 20px;
+    }
+
+    #sort{
+        padding: 4px 10px;
+        font-size: 16px;
+    }
+
+    #add {
+        padding: 4px 10px;
+        font-size: 16px;
+    }
+
+    #input {
+        width: 80%;
+        font-size: 14px;
+    }
+
+}
