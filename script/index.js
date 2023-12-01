@@ -1,20 +1,26 @@
 let input = document.getElementById('input');
-let addButton = document.getElementById('add');
-let sortButton = document.getElementById('sort');
+        let addButton = document.getElementById('add');
+        let itemsList = document.getElementById('items');
 
+        let tasksArray = [];
 
-function validation() {
+        function toDo(item) {
+            item = item.trim();
+            item = item.charAt(0).toUpperCase() + item.slice(1);
 
-    let inputV = input.value.trim();
+            if (!item || item.length <= 3) {
+                alert('Invalid input');
+                return;
+            }
 
-    if (inputV !== '' && inputV.length > 3 && inputV[0] === inputV[0].toUpperCase()) {
-   
-        alert('Valid input');
-    } else {
-        alert('Invalid input');
-    }
-}
+            let task = {
+                id: tasksArray.length === 0 ? 1 : tasksArray.length + 1,
+                name: item,
+                createdDate: new Date(),
+                completed: false
+            };
 
-addButton.addEventListener('click', validation);
+            input.value = '';
+        }
 
-
+        

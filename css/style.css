@@ -9,8 +9,12 @@
     
 }
 
-#div{
+body{
     background-color: gray;
+}
+
+#div{
+
     width: fit-content;
     height: 240px;
     border-radius: 50px;
