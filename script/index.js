@@ -49,7 +49,6 @@ function updateItemsList() {
         });
 
         listItem.appendChild(closeButton);
-
         itemsList.appendChild(listItem);
     });
 }
@@ -66,6 +65,5 @@ function sortTasks() {
     tasksArray.sort((a, b) => a.name.localeCompare(b.name));
     updateItemsList();
 }
-
 addButton.addEventListener('click', toDo);
 sortButton.addEventListener('click', sortTasks);
