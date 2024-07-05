@@ -7,33 +7,38 @@
     <link rel="stylesheet" href="/css/style.css">
     <script src="/script/index.js" defer></script>    
 </head>
+
 <body>
-
-    <center>
-    <div id = "div">
-
-        <h1 id = "heading">To-do List</h1>
-
-
-    <button id = "sort">Sorting</button>
-
-    <input id = "input" type="text" placeholder="Add items to your to do list...">
-
-    <button id = "add">Add</button>
-
-    <ul id = "items">
-
-
-    </ul>
-
-
-</div>
-
-
-
-
-
-</center>
-
-</body>
+    <head>
+        <title>Todo App</title>
+      
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">    
+      </head>
+      <body>
+        <div class="container">
+          <p>
+            <label for="new-task">Add Item</label><input id="new-task" type="text"><button>Add</button>
+          </p>
+          
+          <h3>Todo</h3>
+          <ul id="incomplete-tasks">
+         
+            
+          </ul>
+          
+          <h3>Completed</h3>
+          <ul id="completed-tasks">
+           
+          </ul>
+        </div>
+    
+        <script type="text/javascript" src="app.js"></script>
+    
+      </body>
+      
+      
+      
+      
+  
 </html>
+
